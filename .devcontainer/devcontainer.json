@@ -1,0 +1,16 @@
+{
+  "name": "CS:APP Dev",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y make gdb",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+      ]
+    }
+  }
+}
